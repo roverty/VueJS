@@ -1,0 +1,38 @@
+= VueJS
+Creado por Rodrigo Francisco <rhodfra@gmail.com>
+Version 1.0, 11.11.2020
+
+:sectnums: 
+:toc:
+:toc-placement!:
+:toclevels: 4                                           
+:toc-title: Contenido
+
+:description: archivo README del repositorio de VueJS
+:keywords: AsciiDoc                                         
+:imagesdir: ./README.assets/ 
+
+VueJS es un framework de JavaScript que podríamos considerar
+como el hermano de http://react.org/[React] y de http://angular.io[Angular]
+
+image::vuejs.jpg[]
+
+toc::[]
+
+=== Conocimientos requeridos
+
+Para aprender https://vuejs.org/[vuejs], es ampliamente recomendable contar con los siguientes conocimientos:
+
+* HTML 5
+* CSS 3
+* Javascript
+
+Se hace enfásis en tener conocmientos sólidos de JS ya que el lenguaje por defecto del framework es JS. footnote:disclaimer[También se puede utilizar TypeScript.]
+
+=== Temario
+
+. Repaso express del lenguaje JS
+. Configuración del entorno con VueJS
+. Estructura de directorios de un proyecto con VueJS
+
+=== Estructura del repositorio
