@@ -9,6 +9,10 @@
       <li>{{ index + 1 }}. {{ alumno.nombre }} ({{ alumno.correo }})</li>
     </ul>
   </div>
+  <div v-if="alumnos.length > 1">Tenemos más de un alumno</div>
+  <div v-bind:class="{ alert: showAlert }"></div>
+  <div v-bind:class="alertObject"></div>
+  <div :style="styleAsObject"></div>
 </template>
 
 <script>
@@ -24,6 +28,14 @@ export default {
       { nombre: "Rodrigo Francisco", correo: "rodrigo@unam.mx" },
       { nombre: "Lizeth Durán", correo: "liz@unam.mx" },
     ],
+    showAlert: true,
+    alertObject: {
+      alertYellow: true,
+    },
+    styleAsObject: {
+      background: "red",
+      height: "80px",
+    },
   }),
 };
 </script>
@@ -43,5 +55,15 @@ li {
 }
 a {
   color: #42b983;
+}
+
+.alert {
+  background: #3b3ee0;
+  height: 80px;
+}
+
+.alertYellow {
+  background: #ebfa1d;
+  height: 80px;
 }
 </style>

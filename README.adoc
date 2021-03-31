@@ -124,3 +124,5 @@ image:vue-in-a-readme/lifecycle.png[]
 * Interpolation en el _template_ (Mostacho)
 * Operaciones en la interpolación
 * Directivas (v-if, v-on) : https://v3.vuejs.org/api/directives.html#v-html
+* Style scoped
+* Class binding
