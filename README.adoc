@@ -33,7 +33,7 @@ como el hermano de http://react.org/[React] y de http://angular.io[Angular]
 
 image::vuejs.jpg[vuejs]
 
-//toc::[]
+toc::[]
 
 == Conocimientos requeridos
 
@@ -46,4 +46,63 @@ con los siguientes conocimientos:
 
 Se hace enfásis en tener conocmientos sólidos de JS ya que el lenguaje por defecto del framework es JS. footnote:disclaimer[También se puede utilizar TypeScript.]
 
+== Requisitos de software
+
+* https://nodejs.org/en/[NodeJS]
+* https://cli.vuejs.org/[Vue-CLI]
+
+== Roadmap in 2021
+
+=== Frontend developer
+
+image:vue-in-a-readme/frontend.png[]
+
+=== Backend developer
+
+image:vue-in-a-readme/backend.png[]
+
 == VueJS en un README.adoc
+
+=== Ciclo de desarrollo de un sitio web
+
+image:vue-in-a-readme/architecture.jpg[]
+
+=== Ventajas y desventajas
+
+.Ventajas
+* Fácil de aprender
+* Ligero
+* PWA (Progressive Web Applications)
+* SPA (Single Page Applications)
+
+.Desventajas
+* La comunidad aún es relativamente pequeña
+* SPA
+** Utilizar el SEO (Search Engine Optimization) se vuelve algo más complicado,
+nos referimos a la indexado de búsqueda de nuestra página
+** No se habilitan los "bookmarks" del lado del usuario.
+** Problemas con la navegación del usuario.
+** _¿Cómo se corrige?_ Se utiliza el *Side Server Render (SSR)*, por medio de
+_Nuxt.js_
+
+
+=== La idea básica
+
+Vamos a poder utilizar sentencias de control con HTML
+
+Se busca _descomponer_ el desarrollo en *componentes*
+
+image:vue-in-a-readme/components.png[]
+
+=== Conceptos a desarrollar 
+
+.Conceptos de independientes de VueJS
+* DOM (Document Object Model)
+* Virtual DOM
+* Hook _functions_
+
+.Conceptos de VueJS
+
+=== Ciclo de vida de la instancia de VueJS
+
+image:vue-in-a-readme/lifecycle.png[]
