@@ -118,3 +118,9 @@ image:vue-in-a-readme/lifecycle.png[]
 === Conceptos de VueJS
 * Hook _functions_
 
+=== Notas rápidas
+
+* En cada componente de VueJS tenemos: template, lógica, estilos
+* Interpolation en el _template_ (Mostacho)
+* Operaciones en la interpolación
+* Directivas (v-if, v-on) : https://v3.vuejs.org/api/directives.html#v-html
