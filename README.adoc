@@ -94,15 +94,27 @@ Se busca _descomponer_ el desarrollo en *componentes*
 
 image:vue-in-a-readme/components.png[]
 
-=== Conceptos a desarrollar 
+=== Conceptos a desarrollar de desarrollo Web
 
-.Conceptos de independientes de VueJS
 * DOM (Document Object Model)
 * Virtual DOM
-* Hook _functions_
-
-.Conceptos de VueJS
+* Linter
 
 === Ciclo de vida de la instancia de VueJS
 
 image:vue-in-a-readme/lifecycle.png[]
+
+=== Conceptos de JavaScript
+
+* `var` vs `let`
+* `==` vs `===`
+* Declaración de funciones en el estándar ES6
+* High order functions
+** Map
+** Reduce
+** Filter
+* De-estructuración de objetos y de arreglos
+
+=== Conceptos de VueJS
+* Hook _functions_
+
