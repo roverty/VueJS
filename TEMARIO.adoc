@@ -1,0 +1,29 @@
+== Temario
+
+Este temario lista los conceptos principales que se revisan en el curso de VueJS, sin embargo, a la hora de ejemplificar un concepto, probablemente se verán involucrados otros.
+
+. Repaso *express* del lenguaje JS
+. Caractéristicas de VueJS
+    .. ¿Por qué elegir VueJS?
+    .. Alternativas a VueJS
+    .. ¿Qué debo de tomar en cuenta a la hora de crear
+    mi sitio web con VueJS?
+// Hablar de la división de componentes
+. Configuración del entorno con VueJS
+    .. Instalación de dependencias
+    .. Instalación de vue CLI
+    .. Estructura de directorios 
+    .. Archivos importantes de VueJS
+. La instancia de Vuejs
+    .. Métodos y propiedades de la instancia
+    .. Ciclo de vida de la instancia de VueJS
+. Plantillas de Vue
+    .. Estructuras de control (Condicionales y ciclos)
+    .. Binding de clases y estilos
+    .. Integración de librerias de CSS (Bootstrap)
+    .. Integración de Vue-Bootstrap y Vuetify
+. Data Binding
+. Computed Properties en VueJS
+. Watch Properties en VueJS
+. Creación de componentes
+    .. Props

@@ -46,39 +46,4 @@ con los siguientes conocimientos:
 
 Se hace enfásis en tener conocmientos sólidos de JS ya que el lenguaje por defecto del framework es JS. footnote:disclaimer[También se puede utilizar TypeScript.]
 
-== Temario
-
-Este temario lista los conceptos principales que se revisan en el curso de VueJS, sin embargo, a la hora de ejemplificar un concepto, probablemente se verán involucrados otros.
-
-. Repaso *express* del lenguaje JS
-. Caractéristicas de VueJS
-    .. ¿Por qué elegir VueJS?
-    .. Alternativas a VueJS
-    .. ¿Qué debo de tomar en cuenta a la hora de crear
-    mi sitio web con VueJS?
-// Hablar de la división de componentes
-. Configuración del entorno con VueJS
-    .. Instalación de dependencias
-    .. Instalación de vue CLI
-    .. Estructura de directorios 
-    .. Archivos importantes de VueJS
-. La instancia de Vuejs
-    .. Métodos y propiedades de la instancia
-    .. Ciclo de vida de la instancia de VueJS
-. Plantillas de Vue
-    .. Estructuras de control (Condicionales y ciclos)
-    .. Binding de clases y estilos
-    .. Integración de librerias de CSS (Bootstrap)
-    .. Integración de Vue-Bootstrap y Vuetify
-. Data Binding
-. Computed Properties en VueJS
-. Watch Properties en VueJS
-. Creación de componentes
-    .. Props
-. Eventos
-. Manejo de formularios
-. Mixins
-. Vue Routing
-. Vuex
-
-//== Estructura del repositorio
+== VueJS en un README.adoc
