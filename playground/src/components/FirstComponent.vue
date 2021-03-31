@@ -1,18 +1,20 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-    <h2>Bienvenido al curso de {{ curso }}</h2>
-    <p>{{ logeado ? "Bienvenido" : "Debes logearte" }}</p>
+  <div>
+    <div class="hello">
+      <h1>{{ msg }}</h1>
+      <h2>Bienvenido al curso de {{ curso }}</h2>
+      <p>{{ logeado ? "Bienvenido" : "Debes logearte" }}</p>
+    </div>
+    <div class="header">
+      <ul v-for="(alumno, index) in alumnos" :key="index">
+        <li>{{ index + 1 }}. {{ alumno.nombre }} ({{ alumno.correo }})</li>
+      </ul>
+    </div>
+    <div v-if="alumnos.length > 1">Tenemos más de un alumno</div>
+    <div v-bind:class="{ alert: showAlert }"></div>
+    <div v-bind:class="alertObject"></div>
+    <div :style="styleAsObject"></div>
   </div>
-  <div class="header">
-    <ul v-for="(alumno, index) in alumnos" :key="index">
-      <li>{{ index + 1 }}. {{ alumno.nombre }} ({{ alumno.correo }})</li>
-    </ul>
-  </div>
-  <div v-if="alumnos.length > 1">Tenemos más de un alumno</div>
-  <div v-bind:class="{ alert: showAlert }"></div>
-  <div v-bind:class="alertObject"></div>
-  <div :style="styleAsObject"></div>
 </template>
 
 <script>
