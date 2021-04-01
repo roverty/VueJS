@@ -74,6 +74,7 @@ image:vue-in-a-readme/architecture.jpg[]
 * Ligero
 * PWA (Progressive Web Applications)
 * SPA (Single Page Applications)
+* Conserva la aplicación en orden y _modulada_
 
 .Desventajas
 * La comunidad aún es relativamente pequeña
@@ -94,6 +95,8 @@ Se busca _descomponer_ el desarrollo en *componentes*
 
 image:vue-in-a-readme/components.png[]
 
+image:vue-in-a-readme/separate-by-components.png[]
+
 === Conceptos a desarrollar de desarrollo Web
 
 * DOM (Document Object Model)
@@ -109,7 +112,7 @@ image:vue-in-a-readme/lifecycle.png[]
 * `var` vs `let`
 * `==` vs `===`
 * Declaración de funciones en el estándar ES6
-* High order functions
+* High order array methods
 ** Map
 ** Reduce
 ** Filter
@@ -120,8 +123,9 @@ image:vue-in-a-readme/lifecycle.png[]
 
 === Notas rápidas
 
-* En cada componente de VueJS tenemos: template, lógica, estilos
+* En cada componente de VueJS tenemos: template, funcionalidad, estilos
 * Interpolation en el _template_ (Mostacho)
+* Solo puede haber un elemento de "HTML" por `<template></template>`
 * Operaciones en la interpolación
 * Directivas (v-if, v-on) : https://v3.vuejs.org/api/directives.html#v-html
 * Style scoped
