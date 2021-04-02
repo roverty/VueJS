@@ -30,6 +30,7 @@ export default {
       { nombre: "Rodrigo Francisco", correo: "rodrigo@unam.mx" },
       { nombre: "Lizeth Durán", correo: "liz@unam.mx" },
     ],
+    variable: "Hola",
     showAlert: true,
     alertObject: {
       alertYellow: true,
